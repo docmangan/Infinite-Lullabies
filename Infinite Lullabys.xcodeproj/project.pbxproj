@@ -20,6 +20,7 @@
 		348CA3FF1DB63BE000C606D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348CA3FE1DB63BE000C606D3 /* Assets.xcassets */; };
 		348CA4021DB63BE000C606D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348CA4001DB63BE000C606D3 /* LaunchScreen.storyboard */; };
 		348CA40B1DB63C6200C606D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348CA40A1DB63C6200C606D3 /* AVFoundation.framework */; };
+		34E7F8D51DFB0824004703B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E7F8D41DFB0824004703B6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		348CA4011DB63BE000C606D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348CA4031DB63BE000C606D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		348CA40A1DB63C6200C606D3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		34E7F8D41DFB0824004703B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				348CA3F71DB63BE000C606D3 /* AppDelegate.swift */,
 				348CA3F91DB63BE000C606D3 /* ViewController.swift */,
 				348CA3FB1DB63BE000C606D3 /* Main.storyboard */,
+				34E7F8D41DFB0824004703B6 /* Main.storyboard */,
 				348CA3FE1DB63BE000C606D3 /* Assets.xcassets */,
 				348CA4001DB63BE000C606D3 /* LaunchScreen.storyboard */,
 				348CA4031DB63BE000C606D3 /* Info.plist */,
@@ -124,7 +127,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "William Mangan";
 				TargetAttributes = {
 					348CA3F31DB63BE000C606D3 = {
@@ -162,6 +165,7 @@
 				343D99F31DB64D530022797C /* Babyicon.jpg in Resources */,
 				343D99FD1DB64D9E0022797C /* soundEffect4.mp3 in Resources */,
 				343D99FC1DB64D9E0022797C /* soundEffect3.mp3 in Resources */,
+				34E7F8D51DFB0824004703B6 /* Main.storyboard in Resources */,
 				343D99FB1DB64D9E0022797C /* soundEffect2.mp3 in Resources */,
 				343D99FE1DB64D9E0022797C /* soundEffect5.mp3 in Resources */,
 				348CA3FD1DB63BE000C606D3 /* Main.storyboard in Resources */,
@@ -222,6 +226,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -271,6 +276,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
