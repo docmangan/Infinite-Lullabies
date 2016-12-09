@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Infinite_Lullabys" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Babyicon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7lJ-tB-Bt1">
+                                <rect key="frame" x="-37" y="0.0" width="580" height="763"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="-0.5" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="w8o-kJ-nj1">
+                                <rect key="frame" x="28" y="677" width="358" height="31"/>
+                                <connections>
+                                    <action selector="volume:" destination="BYZ-38-t0r" eventType="valueChanged" id="sE0-cg-qjB"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vh-iW-jq9">
+                                <rect key="frame" x="159" y="121" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Slice"/>
+                                <connections>
+                                    <action selector="pigButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Uh-zB-jwq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kg1-Nz-72q">
+                                <rect key="frame" x="49" y="121" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Slice"/>
+                                <connections>
+                                    <action selector="sheepButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pj0-TY-4RE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drF-wj-cMn">
+                                <rect key="frame" x="274" y="121" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Slice"/>
+                                <connections>
+                                    <action selector="frogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iUC-sN-Ke1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Infinite Lullabies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmM-Rb-EKe">
+                                <rect key="frame" x="27" y="20" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kZ-AY-lTA">
+                                <rect key="frame" x="49" y="58" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Slice"/>
+                                <connections>
+                                    <action selector="catButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jed-0B-nLY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynm-VZ-Y5y">
+                                <rect key="frame" x="159" y="58" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Slice"/>
+                                <connections>
+                                    <action selector="dogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vS5-re-qL1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fg-uH-RaC">
+                                <rect key="frame" x="274" y="58" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Slice"/>
+                                <connections>
+                                    <action selector="horseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o2I-6Z-o5r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2x0-o2-Zdb">
+                                <rect key="frame" x="196" y="400" width="46" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qyz-qw-VTL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.48305823631535943" green="0.70941584967320259" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7lJ-tB-Bt1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-37" id="Axn-6A-q9j"/>
+                            <constraint firstItem="w8o-kJ-nj1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="EBm-FJ-iz8"/>
+                            <constraint firstItem="7lJ-tB-Bt1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ps6-LH-Li3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w8o-kJ-nj1" secondAttribute="bottom" constant="29" id="Yob-R9-BKY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w8o-kJ-nj1" secondAttribute="trailing" constant="10" id="e2P-A3-ORh"/>
+                            <constraint firstAttribute="trailing" secondItem="7lJ-tB-Bt1" secondAttribute="trailing" constant="-129" id="ttf-tP-f0I"/>
+                            <constraint firstAttribute="bottom" secondItem="7lJ-tB-Bt1" secondAttribute="bottom" constant="-27" id="ziB-df-12c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="volumeSlider" destination="w8o-kJ-nj1" id="2Dd-6K-WXL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130.43478260869566" y="94.565217391304358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Babyicon.jpg" width="640" height="960"/>
+        <image name="Slice" width="140" height="136"/>
+    </resources>
+</document>
